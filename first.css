@@ -1,0 +1,418 @@
+.main {
+  width: 1680px;
+  height: 1780px;
+  background-color: rgba(215, 235, 250, 0.879);
+  padding-top: 0px;
+}
+ul {
+  list-style-type: none;
+  background-color: black;
+  overflow: hidden;
+  /* border: 2px solid pink; */
+}
+li {
+  color: whitesmoke;
+  display: inline;
+  padding: 10px;
+}
+#nav {
+  font-size: small;
+  padding-top: 20px;
+  float: right;
+}
+.nava {
+  margin-top: -5px;
+  position: absolute;
+  top: 0px;
+  z-index: 1;
+  width: 1680px;
+}
+.below_navbar {
+  margin-top: 0%;
+  position: relative;
+}
+.first_image {
+  padding-top: 0px;
+  height: 700px;
+  width: 1680px;
+}
+.first_title {
+  font-size: 60px;
+  position: absolute;
+  top: 200px;
+  left: 500px;
+  color: white;
+  font-family: sans-serif;
+}
+span {
+  color: #ffea00;
+}
+.second_title {
+  font-size: 29px;
+  position: absolute;
+  top: 310px;
+  left: 675px;
+  color: white;
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+.button_first {
+  position: absolute;
+  top: 400px;
+  left: 735px;
+  background-color: hsla(53, 100%, 50%, 0.764);
+  height: 50px;
+  width: 150px;
+  font-size: 10px;
+  color: white;
+  border: 0px;
+}
+.first_cards {
+  display: flex;
+
+  position: absolute;
+  top: 620px;
+ 
+  justify-content: center; 
+  width: 1670px;
+  /* border: 3px solid pink; */
+}
+.card {
+  height: 450px;
+  width: 300px;
+  /* border: 2px solid red; */
+  /* justify-items: space-between; */
+  margin-left: 100px;
+
+}
+.f_card{
+  margin-left: 100px !important;
+
+}
+.image_2 {
+  height: 372px;
+  width: 300px;
+}
+.card-1 {
+  margin-left: 0px !important;
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
+}
+.hotel {
+  height: 70px;
+  width: 50%;
+  /* border: 2px solid #330080; */
+  background-color: white;
+  text-align: center;
+  padding-top: 15px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #6460087b;
+  font-size: larger;
+}
+.rental {
+  background-color: #f5e210 !important;
+  display: inline-block;
+}
+#form {
+  padding: 25px;
+}
+.form_items {
+  height: 40px;
+  width: 250px;
+}
+.form {
+  background-color: white;
+}
+.form_end {
+  background-color: #f5e210f6;
+  height: 75px;
+  padding-left: 90px;
+  padding-top: 20px;
+}
+#form_btn {
+  background-color: #decf29;
+  padding: 15px;
+  padding-top: 20px;
+  border: none;
+}
+.newyork {
+  color: white;
+  display: inline;
+  padding: 20px;
+  padding-left: 40px;
+  font-family: sans-serif;
+  font-size: large;
+  padding-top: 10px;
+  font-size: 13px;
+}
+.price {
+  color: white;
+  display: inline-block;
+  padding-left: 80px;
+  font-family: sans-serif;
+  font-size: 15px;
+  padding-top: 15px;
+}
+.card_description {
+}
+.card-2 {
+  background-color: rgb(46, 150, 46);
+}
+.card-3 {
+  background-color: rgb(227, 73, 73);
+}
+.price-2 {
+  padding-left: 100px;
+}
+.text_lorem {
+  position: absolute;
+  top: 1140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.lorem_text {
+  padding-left: 185px;
+  padding-right: 185px;
+  font-size: 30px;
+  display: inline;
+  font-family: sans-serif;
+  font-weight: lighter;
+  color: rgb(81, 81, 79);
+}
+.styling_line{
+  width: 200px; 
+  height: 2px; 
+  background-color: rgb(81, 81, 79);
+
+}
+.line-1{
+  margin-left: 340px;
+}
+
+.second_card{
+    position: absolute;
+    top: 1250px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    width: 1670px;
+    
+}
+.sec_card_items{
+  height:350px;
+  width:240px;
+/* border: 2px solid red;   */
+  margin-left: 335px;
+}
+.s_card_item{
+  margin-left: 45px !important;
+}
+.sec_card_text{
+  font-size: 15px;
+  font-family: sans-serif;
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+.date_travel{
+  color: rgba(0, 0, 0, 0.353);
+  padding-left: 15px;
+  padding-bottom: 15px;
+}
+.c_4{
+  position: relative;
+  background-color: white;
+}
+.c_3{
+  position: relative;
+  background-color: white;
+}
+.c_2{
+  position: relative;
+  background-color: white;
+}
+.c_1{
+  position: relative;
+  background-color: white;
+}
+.bottom_card{
+  position: absolute;
+  bottom: 0px;
+  height: 40px;
+  width:240px;
+  /* border:1px solid rgb(52, 8, 182); */
+  display: flex;
+  
+}
+.bottom_card_first_section{
+  height: 40px;
+  width: 50px;
+  border: 1px solid rgb(144, 172, 172);
+}
+  
+
+.card_img{
+  width:25px;
+  height:25px;
+  padding-top: 10px;
+  padding-left: 13px;
+} 
+.travel_txt{
+  height: 40px;
+  width: 140px;
+  border: 1px solid rgb(144, 172, 172);
+  border-left: none;
+}
+.travel{
+  padding-left: 40px;
+  padding-bottom: 5px;
+  font-size: 15px;
+  font-weight: 550;
+  font-family: sans-serif;
+}
+.notes_icon{
+  height: 40px;
+  width: 50px;
+  border: 1px solid rgb(144, 172, 172);
+  border-left: none;
+}
+.notes_img{
+  width:25px;
+  height:30px;
+  padding-top: 7px;
+  padding-left: 13px;
+}
+.footer{
+  position: absolute;
+  top: 1600px;
+}
+.footer_text{
+  padding: 40px;
+  padding-left: 370px;
+  padding-right: 260px;
+}
+.package{
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  height: 100px;
+  margin-top: 50px;
+}
+.styling_line_1{
+  width: 300px; 
+  height: 2px; 
+  background-color: rgb(81, 81, 79);
+  
+
+}
+.line-1_1{
+  margin-left: 340px;
+}
+.lorem_text_1 {
+  padding-left: 95px;
+  padding-right: 90px;
+  font-size: 30px;
+  display: inline;
+  font-family: sans-serif;
+  font-weight: lighter;
+  color: rgb(81, 81, 79);
+}
+.last_cards_section{
+  display: flex;
+}
+.last_card{
+  height: 300px;
+  width:520px;
+  /* border: 2px solid red; */
+  margin-left: 340px;
+  margin-top: 60px;
+  display: flex;
+}
+#card_2{
+  margin-left: 55px;
+}
+.last_card_image{
+  height: 300px;
+  width: 230px;
+}
+.last_card_image_section{
+  height: 300px;
+  width: 230px;
+}
+.last_card_text_section{
+  height:230px;
+  width: 289px;
+  border: 1px solid rgb(144, 172, 172);
+  border-left: none;
+  border-bottom: none;
+/*   
+  border: 2px solid green; */
+
+}
+.last_card_text{
+ 
+
+  font-family: sans-serif;
+  padding: 20px;
+  padding-top: 60px;
+}
+.bottom_card_1{
+  height: 60px;
+  width:290px;
+  /* border: 2px solid rgb(26, 0, 128); */
+  display: flex;
+
+}
+.bottom_card_first_section_1{
+  height: 67px;
+  width: 60px;
+  border: 1px solid rgb(144, 172, 172);
+  border-left: none;
+}
+
+.card_img_1{
+  width:30px;
+  height:30px;
+  padding-top: 19px;
+  padding-left: 13px;
+} 
+.travel_txt_1{
+  height: 67px;
+  width: 170px;
+  border: 1px solid rgb(144, 172, 172);
+  border-left: none;
+}
+.travel_1{
+  padding-left: 40px;
+  padding-top: 5px;
+  font-size: 20px;
+  font-weight: 550;
+  font-family: sans-serif;
+}
+.notes_icon_1{
+  height: 67px;
+  width: 60px;
+  border: 1px solid rgb(144, 172, 172);
+  border-left: none;
+}
+.notes_img_1{
+  width:30px;
+  height:32px;
+  padding-top: 19px;
+  padding-left: 13px;
+}
+.copyright{
+  height: 40px;
+  width: 1680px;
+  background-color: black;
+  margin-top: 100px;
+}
+.copyright_text{
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+}
